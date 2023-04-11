@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Points"
+        android:id="@+id/points"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_currency_bitcoin_24"
+
+
+        />
+
+    <item
+        android:title="Discounts"
+        android:id="@+id/discounts"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_discount_24"
+        />
+
+    <item
+        android:title="Services"
+        android:id="@+id/services"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_miscellaneous_services_24"/>
+    <item
+        android:title="History"
+        android:id="@+id/history"
+        android:icon="@drawable/baseline_history_24"
+        app:showAsAction="always"
+        />
+
+</menu>

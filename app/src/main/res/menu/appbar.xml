@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Option 1"
+        android:id="@+id/opt1" />
+
+    <item
+        android:title="Option 2"
+        android:id="@+id/opt2" />
+    <item
+        android:title="Option 3"
+        android:id="@+id/opt3" />
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:title="Notification"
+        android:id="@+id/notify"
+        android:icon="@drawable/baseline_notifications_24"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+
+</menu>
